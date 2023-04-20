@@ -8,66 +8,75 @@
     <title>Fashion for Passion</title>
   </head>
   <body>
-    <div id="header">
-      <header>
-        <img src="./assets/img/Logo.png" alt="Logo Alomy" />
-        <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#work">WORK</a></li>
-            <li><a href="#service">SERVICE</a></li>
-            <li><a href="#blog">BLOG</a></li>
-            <li><a href="#award">AWARD</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-      </header>
-      <article id="hero">
+    <header id="header">
+      <img src="./assets/img/Logo.png" alt="Logo Alomy" />
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#service">SERVICE</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#award">AWARD</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article id="hero">
+      <div class="hero-headline">
         <img src="" alt="" />
-        <h2>Unrevaled Shally</h2>
         <h1>
+          Unrevaled <br />
+          Shally
+        </h1>
+        <h4>
           A Creative <span>Fashion</span> <br />
           Designer
-        </h1>
-        <div id="photos">
-          <article>
-            <img
-              src="./assets/img/22.jpeg"
-              alt="Portrait of a Girl"
-              height="350rem"
-            />
-            <div id="fashion-week">
-              <img src="./assets/img/10.png" alt="Icon Stars" height="30rem" />
-              <div>
-                <img src="./assets/img/18.png" alt="Arrow" height="15rem" />
-                <h3>Fashion Week - 2020</h3>
-              </div>
+        </h4>
+      </div>
+      <div id="photos">
+        <article>
+          <img
+            src="./assets/img/22.jpeg"
+            alt="Portrait of a Girl"
+            height="350rem"
+          />
+          <div id="fashion-week">
+            <img src="./assets/img/10.png" alt="Icon Stars" height="30rem" />
+            <div>
+              <img src="./assets/img/18.png" alt="Arrow" height="15rem" />
+              <p>
+                <span
+                  >Fashion <br />
+                  Week - <br />
+                  2020</span
+                >
+              </p>
             </div>
-          </article>
-          <div id="crown-girl">
-            <img src="./assets/img/11.png" alt="Bling Icon" width="30rem" />
-            <img
-              src="./assets/img/17.jpeg"
-              alt="Portrait of a Girl"
-              height="200rem"
-            />
           </div>
-          <div id="flower-girl">
-            <img
-              src="./assets/img/24.jpeg"
-              alt="Portrait of a Girl"
-              height="400rem"
-            />
-            <p>
-              Working as a <span> creative and outsource </span> your fashion
-              design project and get it quickly done and delivered remotely
-              online
-            </p>
-          </div>
+        </article>
+        <div id="crown-girl">
+          <img src="./assets/img/11.png" alt="Bling Icon" width="30rem" />
+          <img
+            src="./assets/img/17.jpeg"
+            alt="Portrait of a Girl"
+            height="200rem"
+          />
         </div>
-      </article>
-    </div>
+        <div id="flower-girl">
+          <img
+            src="./assets/gif/daisy.gif"
+            alt="Portrait of a Girl"
+            height="400rem"
+          />
+          <p>
+            Working as a <span> creative and outsource </span> your fashion
+            design project and get it quickly done and delivered remotely online
+          </p>
+        </div>
+      </div>
+    </article>
+
     <main>
       <section id="about">
         <article>
@@ -85,55 +94,74 @@
         </article>
       </section>
       <section id="works">
-        <h2>Selected works</h2>
-        <div>
+        <section class="works-and-blogs">
+          <h2>
+            Selected <br />
+            works
+          </h2>
           <div>
-            <hr />
-            <p>
-              Creative work of natural source from, We select only those modern
-              works also my planet your products.
-            </p>
+            <div class="works-and-blogs-flexbox">
+              <hr />
+              <p>
+                Creative work of natural source from, We select only those
+                modern works also my planet your products.
+              </p>
+            </div>
+            <button class="btn">View all works</button>
           </div>
-          <button class="btn">View all works</button>
-        </div>
+        </section>
         <article id="works-artist">
           <img src="./assets/img/1.jpeg" alt="Transparent Earring" />
-          <div>
+          <!-- <div>
             <img src="./assets/img/18.png" alt="Arrow Icon" width="15rem" />
-            <h4>DEVELOPMENT</h4>
-            <p>Stefanie Brückler</p>
-          </div>
+            <p>DEVELOPMENT</p>
+            <h3>Stefanie Brückler</h3>
+          </div> -->
           <img src="./assets/img/2.jpeg" alt="Portrait of a girl" />
-          <div>
+          <!-- <div>
             <img src="./assets/img/18.png" alt="Arrow Icon" width="15rem" />
-            <h4>CREATIVE</h4>
-            <p>Shelby Hipol</p>
-          </div>
+            <p>CREATIVE</p>
+            <h3>Shelby Hipol</h3>
+          </div> -->
+        </article>
+        <article id="works-artist" class="artist-reverse">
+          <img src="./assets/img/5.jpeg" alt="Transparent Earring" />
+          <!-- <div>
+            <img src="./assets/img/18.png" alt="Arrow Icon" width="15rem" />
+            <p>DEVELOPMENT</p>
+            <h3>Stefanie Brückler</h3>
+          </div> -->
+          <img src="./assets/img/4.jpeg" alt="Portrait of a girl" />
+          <!-- <div>
+            <img src="./assets/img/18.png" alt="Arrow Icon" width="15rem" />
+            <p>CREATIVE</p>
+            <h3>Shelby Hipol</h3>
+          </div> -->
         </article>
       </section>
       <section id="service">
         <article id="service-contact">
-          <h4>Service</h4>
+          <p class="service">Service</p>
           <p>My Expertise In This Area</p>
-          <a href="">Let´s Talk</a>
+          <a href="" class="service-link">Let´s Talk</a>
         </article>
         <article id="service-offers">
           <img src="./assets/img/20.jpeg" alt="Girl in Front of Plants" />
           <div>
             <div>
-              <h5>Costume</h5>
+              <h2>Costume</h2>
               <p>Cloth & Wearing</p>
             </div>
             <div>
-              <h5>Acting</h5>
+              <h2>Acting</h2>
               <p>Character</p>
             </div>
             <div>
-              <h5>Modelling</h5>
+              <h2>Modelling</h2>
               <p>Fashion & Life Style</p>
             </div>
             <div>
-              <h5>Artist</h5>
+              <h2>Artist</h2>
               <p>Creative Designer</p>
             </div>
           </div>
@@ -143,28 +171,33 @@
           />
         </article>
       </section>
-      <section id="works">
-        <h2>My Blogs</h2>
-        <div>
+      <section id="blogs">
+        <section class="works-and-blogs">
+          <h2>My Blogs</h2>
           <div>
-            <hr />
-            <p>
-              Creative work of natural source from, We select only those modern
-              works also my planet your products.
-            </p>
+            <div class="works-and-blogs-flexbox">
+              <hr />
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here.
+              </p>
+            </div>
+            <button class="btn">View all works</button>
           </div>
-          <button class="btn">View all works</button>
-        </div>
+        </section>
         <section id="blog-posts">
           <article class="img-hover-zoom">
             <img src="./assets/img/7.jpeg" alt="Girl working on a Notebook" />
             <p>Marketing, Oct 24, 2022</p>
-            <p>Why Sucsessful People Wear The Same Thing Every Day.</p>
+            <h5>Why Sucsessful People Wear The Same Thing Every Day.</h5>
           </article>
           <article class="img-hover-zoom">
             <img src="./assets/img/8.jpeg" alt="Team working on a Notebook" />
             <p>UI Design, Oct 24, 2022</p>
-            <p>The Quickest Way to Deliver Your Message? Make it Visual.</p>
+            <h5>The Quickest Way to Deliver Your Message? Make it Visual.</h5>
           </article>
           <article class="img-hover-zoom">
             <img
@@ -172,7 +205,7 @@
               alt="3D visualisation of a floorplan"
             />
             <p>Marketing, Oct 24, 2022</p>
-            <p>The Easiest Way to Become a Successful Writer and Author.</p>
+            <h5>The Easiest Way to Become a Successful Writer and Author.</h5>
           </article>
         </section>
       </section>
@@ -199,14 +232,14 @@
           </p>
           <div>
             <img src="./assets/img/12.png" alt="Logo Best Award Winner 2022" />
-            <h5>01x Developer</h5>
-            <h5>Award</h5>
+            <p>01x Developer</p>
+            <p>Award</p>
             <p>Winner</p>
           </div>
         </article>
       </section>
       <section id="contact">
-        <h5>contact</h5>
+        <p class="contact">Contact</p>
         <article>
           <h2>Let’s work on something great together</h2>
           <button class="btn">Let's Talk</button>
